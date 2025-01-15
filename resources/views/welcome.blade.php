@@ -19,7 +19,7 @@
         data-border-radius="small"></script>
 </head>
 
-<body class="font-[&#39;Poppins&#39;] bg-gray-50">
+<body class="text-sm font-bold bg-gray-50">
     <nav class="bg-white shadow-sm">
         <div class="max-w-8xl mx-auto px-4">
             <div class="flex justify-between items-center h-20">
@@ -52,15 +52,17 @@
     <main>
         <section class="relative h-[600px] overflow-hidden">
             <div>
-                <img src="https://i.pinimg.com/236x/f8/7b/0a/f87b0a9bfb86ac4dcb4a5ca451d05ef4.jpg" alt="Party Scene"
-                    class="w-full h-full object-cover" />
                 <div class="absolute inset-0 flex items-center justify-center z-10">
-                    <div class="text-center">
-                        <h1 class="text-6xl font-bold text-white mb-8 shadow-text">Make Every Celebration Unforgettable!
+                    <div class="text-start md:w-5/6 mx-auto">
+                        <h1 class="text-6xl  font-bold mb-8 shadow-text">Make Every Celebration Unforgettable!
                         </h1>
                         <button
-                            class="!rounded-button bg-custom hover:bg-custom/90 text-white px-12 py-4 text-xl font-semibold">Shop
+                            class="rounded-[32px] bg-custom hover:bg-custom/90 text-white px-12 py-4 text-xl font-semibold">Shop
                             Now</button>
+
+                        <button
+                            class="rounded-[32px] bg-indigo-700 hover:bg-custom/90 text-white px-12 py-4 text-xl font-semibold">GET
+                            OUR 20% OFFER</button>
                     </div>
                 </div>
             </div>
@@ -69,32 +71,32 @@
 
         <section class="max-w-8xl mx-auto px-4 py-16">
             <h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">Shop by Category</h2>
-            <div class="grid grid-cols-4 gap-8">
+            <div class="grid grid-cols-4 gap-8 text-center">
                 <div class="group cursor-pointer">
                     <div
-                        class="bg-white rounded-lg shadow-sm p-8 text-center transition-transform hover:-translate-y-1">
-                        <i class="fas fa-birthday-cake text-4xl text-custom mb-4"></i>
+                        class="bg-white rounded-lg shadow-sm p-8 flex gap-3 text-center transition-transform hover:-translate-y-1">
+                        <i class="fas fa-birthday-cake text-xl text-custom mb-4"></i>
                         <h3 class="font-semibold">Birthday Supplies</h3>
                     </div>
                 </div>
                 <div class="group cursor-pointer">
                     <div
-                        class="bg-white rounded-lg shadow-sm p-8 text-center transition-transform hover:-translate-y-1">
-                        <i class="fas fa-holly-berry text-4xl text-custom mb-4"></i>
+                        class="bg-white rounded-lg shadow-sm p-8 flex gap-3 text-center transition-transform hover:-translate-y-1">
+                        <i class="fas fa-holly-berry text-xl text-custom mb-4"></i>
                         <h3 class="font-semibold">Holiday Decorations</h3>
                     </div>
                 </div>
                 <div class="group cursor-pointer">
                     <div
-                        class="bg-white rounded-lg shadow-sm p-8 text-center transition-transform hover:-translate-y-1">
-                        <i class="fas fa-mask text-4xl text-custom mb-4"></i>
+                        class="bg-white rounded-lg shadow-sm p-8 flex gap-3 text-center transition-transform hover:-translate-y-1">
+                        <i class="fas fa-mask text-xl text-custom mb-4"></i>
                         <h3 class="font-semibold">Costumes &amp; Props</h3>
                     </div>
                 </div>
                 <div class="group cursor-pointer">
                     <div
-                        class="bg-white rounded-lg shadow-sm p-8 text-center transition-transform hover:-translate-y-1">
-                        <i class="fas fa-gift text-4xl text-custom mb-4"></i>
+                        class="bg-white rounded-lg shadow-sm p-8 flex gap-3 text-center transition-transform hover:-translate-y-1">
+                        <i class="fas fa-gift text-xl text-custom mb-4"></i>
                         <h3 class="font-semibold">Party Favors</h3>
                     </div>
                 </div>
@@ -107,7 +109,7 @@
             </div>
         </section>
 
-        <section class="max-w-8xl mx-auto px-4 py-16 bg-white">
+        <section class="w-5/6 mx-auto px-4 py-16 bg-white">
             <h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">Featured Products</h2>
             <div class="grid grid-cols-4 gap-8 mb-8">
                 <div class="group">
@@ -118,7 +120,7 @@
                             class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-2">
                             <button class="!rounded-button bg-white text-gray-800 px-6 py-2"><i
                                     class="fas fa-eye mr-2"></i>Quick View</button><button
-                                class="!rounded-button bg-custom text-white px-6 py-2"><i
+                                class="!rounded-button bg-indigo-800 text-white px-6 py-2"><i
                                     class="fas fa-shopping-cart mr-2"></i>Add to Cart</button>
                         </div>
                     </div>
@@ -178,12 +180,12 @@
 
             </div>
             <div class="flex justify-center"><button
-                    class="!rounded-button bg-custom hover:bg-custom/90 text-white px-8 py-3 text-lg font-semibold">View
+                    class="rounded-[32px] bg-indigo-800 text-white px-8 py-3 text-lg font-semibold">View
                     All Products</button></div>
         </section>
 
-        <section class="bg-custom/5 py-16">
-            <div class="max-w-8xl mx-auto px-4">
+        <section class="py-16">
+            <div class="w-5/6 mx-auto px-4">
                 <h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">Party Planning Made Easy</h2>
                 <div class="bg-white rounded-lg shadow-sm p-8">
                     <div class="grid grid-cols-3 gap-8">
@@ -259,7 +261,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <button class="!rounded-button w-full bg-custom text-white py-3 mt-6">Add All to
+                                <button class="rounded-[32px] w-full bg-indigo-800 text-white py-3 mt-6">Add All to
                                     Cart</button>
                             </div>
                         </div>
@@ -269,7 +271,7 @@
         </section>
 
         <section class="py-16">
-            <div class="max-w-8xl mx-auto px-4">
+            <div class="w-5/6 mx-auto px-4">
                 <h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">Customer Gallery</h2>
                 <div class="grid grid-cols-4 gap-4">
                     <div class="relative group">
@@ -308,7 +310,7 @@
             </div>
         </section>
 
-        <section class="bg-custom text-white py-8">
+        <section class="bg-indigo-800 text-white py-8">
             <div class="max-w-8xl mx-auto px-4">
                 <div class="flex items-center justify-between">
                     <div class="flex items-center space-x-8">
