@@ -9,3 +9,16 @@ Route::get('/', function () {
 Route::get('/products', function () {
     return view('products');
 });
+
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/blogs', function () {
+    return view('blog');
+});
