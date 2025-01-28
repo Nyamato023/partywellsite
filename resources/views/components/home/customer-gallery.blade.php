@@ -1,13 +1,13 @@
 <section class="py-16">
     <div class="w-5/6 mx-auto px-4">
-        <h2 class="text-3xl font-bold text-gray-800 mb-12 text-center">Customer Gallery</h2>
+        <h2 class="text-3xl font-bold text-indigo-800 mb-12 text-center">Customer Gallery</h2>
         <div class="grid grid-cols-4 gap-4">
             <div class="relative group">
                 <img src="https://creatie.ai/ai/api/search-image?query=A beautifully decorated birthday party scene with people celebrating, showing genuine joy and excitement. The scene should include party decorations from the store&width=300&height=300&orientation=squarish&flag=051daafa-b20c-439e-918e-2938c396d887&flag=612a95a9-d6ab-4993-b2cd-0f437b451704&flag=f3ba01f8-e97e-49de-ad37-4798325e0ab6"
                     alt="Customer Party 1" class="w-full h-[300px] object-cover rounded-lg" />
                 <div
                     class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <i class="fab fa-instagram text-white text-3xl"></i>
+                    <i class="fab fa-instagram text-indigo-700 text-3xl"></i>
                 </div>
             </div>
             <div class="relative group">
@@ -15,7 +15,7 @@
                     alt="Customer Party 2" class="w-full h-[300px] object-cover rounded-lg" />
                 <div
                     class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <i class="fab fa-instagram text-white text-3xl"></i>
+                    <i class="fab fa-instagram text-indigo-700 text-3xl"></i>
                 </div>
             </div>
             <div class="relative group">
@@ -23,7 +23,7 @@
                     alt="Customer Party 3" class="w-full h-[300px] object-cover rounded-lg" />
                 <div
                     class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <i class="fab fa-instagram text-white text-3xl"></i>
+                    <i class="fab fa-instagram text-indigo-700 text-3xl"></i>
                 </div>
             </div>
             <div class="relative group">
@@ -31,7 +31,7 @@
                     alt="Customer Party 4" class="w-full h-[300px] object-cover rounded-lg" />
                 <div
                     class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                    <i class="fab fa-instagram text-white text-3xl"></i>
+                    <i class="fab fa-instagram text-indigo-700 text-3xl"></i>
                 </div>
             </div>
         </div>
