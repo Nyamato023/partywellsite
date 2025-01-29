@@ -30,11 +30,11 @@
                         class="h-12" />
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="#" class="text-white hover:text-custom">Home</a>
-                    <a href="#" class="text-white hover:text-custom">Shop</a>
-                    <a href="#" class="text-white hover:text-custom">Themes</a>
-                    <a href="#" class="text-white hover:text-custom">Planning</a>
-                    <a href="#" class="text-white hover:text-custom">Gallery</a>
+                    <a href="/" class="text-white hover:text-custom">Home</a>
+                    <a href="/services" class="text-white hover:text-custom">Services</a>
+                    <a href="/gallery" class="text-white hover:text-custom">Gallery</a>
+                    <a href="/blogs" class="text-white hover:text-custom">Blogs</a>
+                    <a href="/contact" class="text-white hover:text-custom">Contact</a>
                 </div>
                 <div class="flex items-center space-x-6">
                     <button class="!rounded-button text-white hover:text-custom">

@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/products', function () {
+Route::get('/services', function () {
     return view('products');
 });
 

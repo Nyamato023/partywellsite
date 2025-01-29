@@ -1,4 +1,4 @@
-<section class="py-12 bg-gray-50">
+<section class="py-12 bg-gray-50 mb-16">
     <div class="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl mx-auto text-center">
             <h2 class="text-3xl font-bold text-gray-900 sm:text-4xl font-[Playfair Display]">Ready to Plan Your
